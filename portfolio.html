@@ -3,20 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aryan's Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        h1 {
+            margin-top: 20px;
+            font-size: 3em;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            color: #666;
+        }
+
+        hr {
+            border: 1px solid #ccc;
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        /* Link styles */
+        a {
+            text-decoration: none;
+            color: #007BFF;
+            font-size: 1.2em;
+            display: block;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+
+        /* Image styles */
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Container for content */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Section Styles */
+        .project {
+            margin-bottom: 40px;
+        }
+
+        .project h3 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            font-size: 1em;
+            color: #555;
+        }
+
+        .project img {
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Aryan's Portfolio</h1>
-    <h2>I am a Web Developer</h2>
-    <hr>
-    <a href="http://127.0.0.1:5500/FOLDER%200/portfolio/movie.html">Series Ranking Project</a>
-    <br>
-    <img src="image.png" alt="best series">
-    <hr>
-    <a href="https://www.greetingsisland.com/invitations/birthday" >Birthday Invite</a>
-    <br>
-    <img src="invite.png" alt="invite" height="400" width="250"> 
 
+    <div class="container">
+        <h1>Aryan's Portfolio</h1>
+        <h2>I am a Web Developer</h2>
+        <hr>
+
+        <div class="project">
+            <h3>Series Ranking Project</h3>
+            <p>This project showcases my ability to work with dynamic content and build interactive web applications.</p>
+            <a href="http://127.0.0.1:5500/FOLDER%200/portfolio/movie.html">View Project</a>
+            <img src="image.png" alt="Image from Series Ranking Project">
+        </div>
+
+        <hr>
+
+        <div class="project">
+            <h3>Birthday Invite</h3>
+            <p>This project is a customizable birthday invitation template that you can easily personalize.</p>
+            <a href="https://www.greetingsisland.com/invitations/birthday">View Project</a>
+            <img src="invite.png" alt="Birthday Invitation" height="400" width="250">
+        </div>
+    </div>
 
 </body>
 </html>
